@@ -1,5 +1,7 @@
 # vagrant-silverstripe
-A robust silverstripe vagrant installation
+A robust Trusty 64bit SilverStripe vagrant base installation using shell provisioning. For when no amount of chefs or puppets will do. ;)
+
+Fork it as a extensible base for your projects.
 
 # Development Only
 This Vagrant set up is for development use only it is deliberately in-secure and designed to be easy to access and work on with no consideration given to the security implications of this. Do not put this environment on any public network or use it for configuring external web servers.
