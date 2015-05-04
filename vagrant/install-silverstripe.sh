@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd /var/www
+cd /vagrant/public_html
 sudo rm -rf *.*
 sudo rm -rf *\.*
 composer create-project silverstripe/installer .
