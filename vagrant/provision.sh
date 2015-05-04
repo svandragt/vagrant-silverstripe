@@ -78,4 +78,6 @@ service apache2 restart
 echo 'IP ADDRESS:'
 hostname -I
 
+useradd -a -G www-data vagrant
+
 echo 'To install silverstripe run from the VM: sh /vagrant/vagrant/install-silverstripe.sh'
