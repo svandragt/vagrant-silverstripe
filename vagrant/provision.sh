@@ -5,7 +5,7 @@ aptitude install -y php5 php-pear apache2 php5-suhosin php5-curl expect php-apc 
 # Set default mysql password
 debconf-set-selections <<< 'mysql-server mysql-server/root_password password vagrant'
 debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password vagrant'
-aptitude -y install mysql-server php5-mysql
+aptitude -y install mysql-server php5-mysqlnd
 # cp /etc/mysql/my.cnf ~/my.cnf.backup
 
 # # Secure installation
